@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<script src="./userinformation.js" defer></script>
+<link rel="stylesheet" href="./userinformation.css">
+</head>
+<body>
+   <table>
+    <tr>
+        <th colspan="4">Emp Details</th>
+    </tr>
+    <tr>
+        <th>First Name</th>
+        <th><Input readonly id="fName"></Input>
+        </th>
+        <th>
+        <a href="#fName">
+            <input type="button" value="update" onclick="updateData('fName')">
+        </a>
+    </th>
+    <th>
+        <input type="button" value="Remove" onclick="removeData('fName')">
+    </th>
+    </tr>
+    <tr>
+        <th>LastName</th>
+        <th><input readonly id="lName"></Input>
+        </th>
+        <th>
+            <a href="#lName">
+                <input type="button" value="update" onclick="updateData('lName')">
+            </a>   
+        </th>
+        <th>
+            <input type="button" value="Remove" onclick="removeData('lName')">
+        </th>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <th><input readonly id="email"></input>
+        </th>
+        <th>
+            <a href="#email">
+                <input type="button" value="update" onclick="updateData('email')">
+            </a>
+        </th>
+        <th>
+            <input type="button" value="Remove" onclick="removeData('email')">
+        </th>
+     </tr>
+    <tr>
+        <th>PhnNumber</th>
+        <th><input  readonly id="phnno"></input>
+        </th>
+        <th>
+            <a href="#phnno">
+                <input type="button" value="update" onclick="updateData('phnno')">
+            </a>
+        </th>
+        <th>
+            <input type="button" value="Remove" onclick="removeData('phnno')">
+        </th>
+    </tr>
+    <tr>
+        <th>ID</th>
+        <th><input  readonly id="id"></input>
+        </th>
+        <th>
+            <a href="#id">
+                <input type="button" value="update" onclick="updateData('id')">
+            </a>
+        </th>
+        <th>
+            <input type="button" value="Remove" onclick="removeData('id')">
+        </th>
+    </tr>
+    <tr>
+        <th>Gender</th>
+        <th><input  readonly id="gender"></input>
+        </th>
+        <th>
+            <a href="#gender">
+                <input type="button" value="update" onclick="updateData('gender')">
+            </a>
+        </th>
+        <th>
+            <input type="button" value="Remove" onclick="removeData('gender')">
+        </th>
+     </tr>
+    <tr>
+        <th>Sal</th>
+        <th><input  readonly id="sal"></input>
+        </th>
+        <th>
+            <a href="#sal">
+                <input type="button" value="update" onclick="updateData('sal')">
+            </a>
+        </th>
+        <th>
+            <input type="button" value="Remove" onclick="removeData('sal')">
+        </th>
+    </tr>
+    <tr>
+        <th>Desg</th>
+        <th><input  readonly id="desg"></input>
+        </th>
+        <th>
+            <a href="#desg">
+                <input type="button" value="update" onclick="updateData('desg')">
+            </a>
+        </th>
+        <th>
+            <input type="button" value="Remove" onclick="removeData('desg')">
+        </th>
+    </tr>
+    <tr>
+        <th colspan="4">
+            <input type="submit" onclick="storeData()">
+        </th>
+    </tr>
+   </table> 
+</body>
+</html>
